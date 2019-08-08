@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html --no-source-maps"
+    "dev": "parcel src/index.html --no-source-maps",
+    "build": "parcel build src/index.html --no-source-maps"
   },
   "dependencies": {
     "@babylonjs/core": "^4.0.3",
     "@babylonjs/inspector": "^4.0.3"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }

@@ -7,10 +7,10 @@ import { HemisphericLight } from '@babylonjs/core/Lights/hemisphericLight'
 import { ArcRotateCamera } from '@babylonjs/core/Cameras/arcRotateCamera'
 import { ActionManager } from '@babylonjs/core/Actions/actionManager'
 import { InterpolateValueAction } from '@babylonjs/core/Actions/interpolateValueAction'
+import '@babylonjs/core/Culling/ray'
+import '@babylonjs/core/Animations/animatable'
 
 // import "@babylonjs/core/Debug/debugLayer"
-
-// 👇️ UNCOMMENT THIS TO MAKE ACTIONS WORK AGAIN
 // import '@babylonjs/inspector'
 
 class App {
